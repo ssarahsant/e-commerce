@@ -1,0 +1,122 @@
+*  { 
+    margin: 0; 
+    padding: 0; 
+    /* flex-wrap: wrap; */
+} 
+
+.carrinho {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   gap: 50px;
+}
+
+.compra-produtos {
+    flex-direction: column;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0 0 0 / 60%));
+    filter: drop-shadow(5px 5px 5px rgba(0 0 0 / 60%));
+    border-radius: 20px;
+}
+
+.imagem-produto {
+    width: 250px;
+    height: 250px;
+}
+
+
+.imagem-produto img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.quantidade, .valor-prod{
+    margin-top: 20px;
+}
+
+/* Botão Quantidade */
+.quantidade {
+    width: 80px; 
+    height: 25px; 
+} 
+
+/* Estilos para o input dentro da div */
+.quantidade input {
+    width: 50%; 
+    height: 100%; 
+    border-radius: 8px;
+}
+
+/* Resultado Total das Compras */ 
+.total-produtos {
+    background-color: #504d7e;
+    color: #fff;
+    width: 60%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0 0 0 / 60%));
+    filter: drop-shadow(5px 5px 5px rgba(0 0 0 / 60%));
+    border-radius: 20px;
+    height: 200px;
+    margin-bottom: 90px;
+    gap: 750px;
+}
+
+.texto {
+    display: flex; 
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.valor {
+    display: flex; 
+    align-items: end;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* 
+.botao button {
+    width: 150%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: none; 
+    color: rgb(0, 0, 0); 
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.botao button:hover {
+    transition: all 0.s ease;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0 0 0 / 60%));
+    filter: drop-shadow(5px 5px 5px rgba(0 0 0 / 60%));
+}
+
+.botao {
+    margin-right: 60px;
+}
+
+.pagamento {
+    display: flex;
+    height: 30px;
+    border-radius: 8px;
+} */

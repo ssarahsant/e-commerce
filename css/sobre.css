@@ -1,0 +1,44 @@
+/* Apresentação da Empresa */
+
+.sobre-nos {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.somos { 
+    display: flex; 
+    justify-content: center;
+} 
+
+.historia h1 { 
+    text-align: center; 
+    margin-bottom: 20px;
+} 
+
+.linha {
+    border-bottom: 5px solid #46445c;
+    margin-left: 200px;
+    margin-right: 210px; 
+    margin-bottom: 20px;
+}
+
+.historia p { 
+    display: flex; 
+    width: 470px; 
+    height: 225px; 
+    font-size: large; 
+    text-align: center;
+    line-height: 30px; 
+} 
+ 
+ 
+.foto-sobre { 
+    margin-left: 80px; 
+    width: 450px; 
+} 
+ 
+ 
+.foto-sobre img { 
+    width: 100%; 
+    height: 100%; 
+} 
